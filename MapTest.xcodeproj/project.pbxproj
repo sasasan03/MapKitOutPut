@@ -14,6 +14,7 @@
 		6947E51229891A28009294D3 /* MapTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E51129891A28009294D3 /* MapTestTests.swift */; };
 		6947E51C29891A29009294D3 /* MapTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E51B29891A29009294D3 /* MapTestUITests.swift */; };
 		6947E51E29891A29009294D3 /* MapTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E51D29891A29009294D3 /* MapTestUITestsLaunchTests.swift */; };
+		6947E52B29891A35009294D3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947E52A29891A35009294D3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6947E51729891A29009294D3 /* MapTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6947E51B29891A29009294D3 /* MapTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestUITests.swift; sourceTree = "<group>"; };
 		6947E51D29891A29009294D3 /* MapTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6947E52A29891A35009294D3 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6947E50029891A25009294D3 /* MapTestApp.swift */,
 				6947E50229891A25009294D3 /* ContentView.swift */,
+				6947E52A29891A35009294D3 /* MapView.swift */,
 				6947E50429891A28009294D3 /* Assets.xcassets */,
 				6947E50629891A28009294D3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6947E50329891A25009294D3 /* ContentView.swift in Sources */,
+				6947E52B29891A35009294D3 /* MapView.swift in Sources */,
 				6947E50129891A25009294D3 /* MapTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
